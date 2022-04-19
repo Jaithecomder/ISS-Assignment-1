@@ -7,16 +7,11 @@ Git Repo Link : https://github.com/Jaithecomder/ISS-Assignment-1
 
 Q1)
     Input "quotes.txt" or path to "quotes.txt" as <file_name>.
-    a)
-        Run as :
-        ./q1a.sh <file_name>
-        Expected Output :
-        File printed with empty lines removed. 
-    b)
-        Run as :
-        ./q1b.sh <file_name>
-        Expected Output :
-        File printed with duplicated lines removed.
+    Run as :
+    ./q1.sh <file_name>
+    Expected Output :
+    File printed with empty lines removed.
+    File printed with duplicated lines removed.
 
 Q2)
     Input "quotes.txt" or path to "quotes.txt" as <file_name>.
