@@ -4,7 +4,7 @@ echo "Original Array : "
 echo ${A[*]}
 for ((i = 0; i<${#A[@]}; i++))
 do
-    for((j = 0; j<${#A[@]}-i-1; j++))
+    for ((j = 0; j<${#A[@]}-i-1; j++))
     do
         if [ ${A[j]} -gt ${A[$((j+1))]} ]
         then
